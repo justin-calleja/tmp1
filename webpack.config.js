@@ -14,6 +14,8 @@ module.exports = {
     }]
   },
   resolve: {
+    root: __dirname,
+    modulesDirectories: ['public', 'src', 'node_modules'],
     extensions: ['', '.js', '.jsx']
   },
   output: {
